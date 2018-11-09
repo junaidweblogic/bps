@@ -1,0 +1,48 @@
+.footer{
+font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color:#b5b4b4;
+	text-decoration:none;
+}
+
+body            {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt; color: #000000; background-color: #FFFFFF }
+pre, tt         {font-size: 9pt;}
+table           {border:0px font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt;  }
+th              {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt; font-weight: bold; color: #000000; line-height:20px; text-indent:8px;  background-color: #abd4e7; }
+td              {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt;}
+form            {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt;}
+input           {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt;}
+input.textfield {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt; color: #000000; background-color: #FFFFFF}
+select          {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt; color: #000000; background-color: #FFFFFF}
+textarea        {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt; color: #000000; background-color: #FFFFFF}
+h2{ font-family:Arial, ; font-size:1.50em; font-weight:none;}
+h1              {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: large; font-weight: bold}
+a:link      {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #000000; text-decoration:none; line-height:24px; }
+a:visited   {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #000000; text-decoration:none; line-height:24px; }
+a:hover     {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #e55d13; text-decoration:none; line-height:24px; }
+
+a:link.nav      {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #000000; font-size: 12px;  text-decoration:none; line-height:20px; }
+a:visited.nav   {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #000000; font-size: 12px;  text-decoration:none; line-height:20px; }
+a:hover.nav      {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #ffffff; font-size: 12px; text-decoration:none; line-height:20px; }
+
+.text4           {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #FFFFFF}
+.text5           {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #2B547E}
+.warning        {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt; font-weight: bold; color: #FF0000}
+table.tbborder	{border-collapse: none;}
+td.tbborder		{font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt; color: #000000; background-color: #FFFFFF; font-weight:lighter ; border-collapse: none; bordercolor: #0EA8A8; background-color:#FFFFFF ;  padding-left:10px ; }
+
+a:link.navlinks      {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #ffffff; font-size: 12px;  text-decoration:none; line-height:20px; }
+a:visited.navlinks   {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #ffffff; font-size: 12px;  text-decoration:none; line-height:20px; }
+a:hover.navlinks      {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #000000; font-size: 12px; text-decoration:none; line-height:20px; }
+
+a:link.footerlink      {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #ffffff; font-size: 12px;  text-decoration:none; line-height:24px; }
+a:visited.footerlink   {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #ffffff; font-size: 12px;  text-decoration:none; line-height:24px; }
+a:hover.footerlink      {font-family: Arial, Arial, helvetica, geneva, sans-serif; color: #000000; font-size: 12px; text-decoration:none; line-height:24px; }
+
+.tdclass1 {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt; background-color: #fafafa}
+.tdclass2 {font-family: Arial, Arial, helvetica, geneva, sans-serif; font-size: 9pt; 
+
+'----------------------------above is the standandard css format-----------------------------------------------------------------------

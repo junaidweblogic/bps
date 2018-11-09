@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks
+RewriteEngine On
+	#RewriteCond %{HTTP_REFERER} ^https://(www\.)?airbotswana\.co.bw(/.*)*$ [NC,OR]
+	RewriteCond %{HTTP_REFERER} ^https://(www\.)?airbotswana\.co.bw(/.*)*$ [NC,OR]
+ 	RewriteRule \.(html|HTML|htm|HTML|php|pl|PHP|PL|py|PY|)$ - [F]
+</IfModule>

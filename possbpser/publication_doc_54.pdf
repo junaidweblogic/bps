@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BABPS :: Membership</title>
+<link rel="shortcut icon" href="/newsite/images/favicon.png">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet"> 
+
+<!-- Style CSS -->
+<link href="/newsite/css/bootstrap.min.css" rel="stylesheet">
+<link href="/newsite/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="/newsite/css/animate.min.css" rel="stylesheet">
+<link href="/newsite/css/multi-columns-row.css" rel="stylesheet"><!-- used class multi-columns-row -->
+<link rel="stylesheet" type="text/css" href="/newsite/source/jquery.fancybox.css?v=2.1.5" media="screen" /><!-- Fancy Box Popup -->
+<link rel="stylesheet" type="text/css" href="/newsite/css/responsiveslides.css" /><!--Fade Gallery-->
+<link rel="stylesheet" href="/newsite/css/menu-styles.css"><!--Navigation Menu-->
+
+<link rel="stylesheet" href="/newsite/css/datepicker.css">
+
+
+<link type="text/css" rel="stylesheet" href="/newsite/css/style-main.css">
+
+
+<link type="text/css" rel="alternate stylesheet" href="/newsite/css/style-main-dark-grey.css" title="theme1">
+<link type="text/css" rel="alternate stylesheet" href="/newsite/css/style-main-brown.css" title="theme2">
+<link type="text/css" rel="alternate stylesheet" href="/newsite/css/style-main-black-white.css" title="theme3">
+<link type="text/css" rel="alternate stylesheet" href="/newsite/css/style-main-pink.css" title="theme4">
+<link type="text/css" rel="alternate stylesheet" href="/newsite/css/style-main-bright-yellow.css" title="theme5">
+
+<link href="/newsite/css/normalize.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="/newsite/js/my.js"></script>
+
+
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body id="maincontent">
+
+
+<header id="top">
+	<div class="top-bar">
+  
+    <section class="top-black">
+    	<div class="container">
+			<div class="row">
+            	<div class="col-md-3 col-sm-4">
+                	<div class="logo"><a href="/newsite/index.php/home/"><img class="" src="/newsite/images/logo.jpg" alt="" /></a></div>
+                    
+                   
+                </div>
+                
+                <div class="col-md-9 col-sm-8">
+                
+                 <div class="logo-title">
+                		<h1>Botswana Association of the blind <span class="title-color">and Partially Sighted (BABPS)</span></h1>
+                	</div>
+                
+                	<div class="search-block">
+                       <form class="searchpanel" role="search" method="GET" action="/newsite/index.php/submit-search/">
+					        <div class="input-group ">
+                               <input type="text" id="search" name="search" placeholder="Search" class="form-control search-box">
+                                <div class="input-group-btn">
+								<input type="hidden" name="userval" value="7j86toq9">
+                                    <button class="btn btn-default search-btn" type="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                         </form>
+                     </div>
+                     
+                  </div>
+                  
+                  <div class="col-md-9 col-sm-12 colmdf">   
+                      <div class="row">
+                      		<div class="col-md-6 col-sm-6">
+                            
+                            	 <div class="top-links">
+                                     <!--<p class="adjust flt">Adjust Font : </p>--> &nbsp; 
+                                     
+                                        <!--<a href="#" id="incfont" class="button buttonfont" title="Increas Font" alt="Increas Font"> A+</a>
+                                        <a href="#" id="decfont" class="button buttonfont" title="Deccreas Font" alt="Deccreas Font">A-</a>-->
+                                       <div class="frt">
+                                       <!--<span class="pipe-line">|</span>-->
+                                        <a href="/newsite/index.php/babps-faq/">FAQ's</a> 
+                                        </div>
+                                        
+                                        <!--<div id="font_selection_box" class="frt a-icon"></div>-->
+                                        
+                                        <div id="textsizer" class="frt a-icon">
+                                           <ul class="textresizer">
+                                              <li><a href="#nogo" class="small-text" title="Small">A<span class="accessibility">Font Size Link A 12</span></a></li>
+                                              <li><a href="#nogo" class="medium-text" title="Medium">A<span class="accessibility">Font Size Link A 14</span></a></li>
+                                              <li><a href="#nogo" class="large-text" title="Large">A<span class="accessibility">Font Size Link A 16</span></a></li>
+                                              <li><a href="#nogo" class="larger-text" title="Larger">A<span class="accessibility">Font Size Link A 18</span></a></li>
+                                           </ul>
+                                        </div>
+                                        
+                                  </div>
+                            
+                            </div>
+                            
+                            <div class="col-md-6 col-sm-6">
+                            
+                            <p class="adjust changet flt">Change Theme</p>
+                            	<div class="theme-block flt">
+                            
+							<form role="search" method="POST" action="/newsite/index.php/babps-membership/babps.org.bw/newsite/common_up/babps/files/BABPS MEMBERSHIP FORM.pdf">
+                            
+                                 <select class="form-control" id="myList" onchange="this.form.submit()" name="style">
+                                 
+                                    <option value="default">Original Theme</option>
+                                    <option value="theme1" >Dark Grey</option>
+                                    <option value="theme2" >Brown</option>
+                                    <option value="theme3" >Black &amp; white</option>
+                                    <option value="theme4"  style="bgcolor:red">Bright Pink</option>
+                                    <option value="theme5" >Bright Yellow</option>
+                                 </select>
+							 </form>
+                             </div>
+                             </div>
+                            
+                            
+                      </div>
+                      
+                      
+                      
+                      
+                 </div>
+             </div>
+		</div>
+    </section> 
+    
+    <!--Navigation-->
+    <section class="menu-bg">
+    	<div class="container">
+        	<div id='cssmenu' class="navigation">
+                <ul>
+                   <li ><a class="multi-fontszie" href='/newsite/index.php/home/'>Home</a></li>
+										<li class='has-sub '					><a class="multi-fontszie" href="/newsite/index.php/babps-content/cid/2/about-us/"  >About US</a>
+											<ul id="submenu12" class="ddsubmenustyle">
+						<li 					><a class="multi-fontszie" href="/newsite/index.php/babps-content/cid/32/babps-board-members/"  >BABPS Board Members</a>
+											</ul>				
+					
+				</li>
+					<li 					><a class="multi-fontszie" href="/newsite/index.php/babps-content/cid/6/programmes/"  >Programmes</a>
+										<li 					><a class="multi-fontszie" href="/newsite/index.php/babps-content/cid/7/services/"  >Services</a>
+										<!-- <li><a class="multi-fontszie" href='/newsite/index.php/babps-content/cid/7/services/'>Services</a></li> -->
+                   <li ><a href='/newsite/index.php/babps-events/'>Events</a></li>
+                   <li ><a href='/newsite/index.php/babps-news/'>News</a></li>
+					<!-- 					<li 					><a class="multi-fontszie" href="/newsite/index.php/babps-content/cid/8/become-a-member/"  >Become A Member</a>
+					 -->
+					<li  class="active"><a href='/newsite/index.php/babps-membership/'>Become a member</a></li>
+                   <li ><a href='/newsite/index.php/babps-contact-us/'>Contact Us</a></li>
+                </ul>
+             </div>
+		</div>
+    </section>
+    <!--/Navigation-->
+
+    <div class="clear"></div>
+       
+    </div>
+</header>
+
+ 
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a href="/newsite/index.php/home/">Home</a></li>
+	
+    <li class="active">Become a member</li>        
+  </ol>
+</div>
+
+<main class="content">
+	<div class="main">
+    	<div class="container">
+            <div class="welcome-block">
+                <h1><span class="title-blue">Become a member</span></h1>
+				<p>
+	<strong>BABPS</strong> is an individual membership organization and one must be registered to be among its membership. The following are requirements to become a member:</p>
+<ul>
+	<li>
+		Must be over the age of 16 years.</li>
+	<li>
+		Must either be blind, partial sighted or have a passion for issues relating to persons who are blind</li>
+	<li>
+		Must fill-up BABPS membership registration form. The registration form can be downloaded below</li>
+	<li>
+		Must pay registration fee of P15.00 and an annual subscription fee of P10.00</li>
+</ul>
+<p>
+	<a class="btn btn-default" download="" href="babps.org.bw/newsite/common_up/babps/files/BABPS%20MEMBERSHIP%20FORM.pdf" target="_blank">Click here</a> to Download the Membership Form or either fill the form below to apply for membership.</p>
+			<div class="gap"></div>
+            <h2><span class="title-blue">Membership Form</span></h2> 
+             <form action="/newsite/index.php/submit-member/" method="POST"> 
+                             <div class="row">
+                	<div class="col-md-3 col-sm-3">
+                    	<div class="form-group">
+                        	<input type="text" class="form-control" id="name" name="name" placeholder="Full Name" value="" required>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-3">
+                    	<div class="form-group">
+                        	<input type="text" class="form-control datetimepicker" id="dob" name="dob" placeholder="D.O.B (dd/mm/yyyy)" value="" required>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-3">
+                    	<div class="form-group">
+                        	<select class="form-control" id="sex" name="sex">
+                            	<option value="" selected>Select Sex</option>
+                                <option value="male" >Male</option>
+                                <option value="female" >Female</option>
+                              </select>
+                        </div>
+                    </div>
+                    
+                     <div class="col-md-3 col-sm-3">
+                    	<div class="form-group">
+                        	<input type="text" class="form-control" id="nationality" name="nationality" placeholder="Nationality" value="" required>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-3">
+                    	<div class="form-group">
+                        	<input type="text" class="form-control" id="idno" name="idno" placeholder="ID Number  (Omang)" value="" required>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-3">
+                    	<div class="form-group">
+                        	<input type="text" class="form-control" id="mstatus" name="mstatus" placeholder="Marital Status" value="" required>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-3">
+                    	<div class="form-group">
+                        	<input type="tel" class="form-control" id="tel" name="tel" placeholder="Telephone/Cellphone" value="" required onBlur="telephone(this.id)">
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-3">
+                    	<div class="form-group">
+                        	<input type="email" class="form-control" id="email" name="email" placeholder="Email Address" value="" required>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-6">
+                    	<div class="form-group">
+                        	<textarea class="form-control" rows="3" id="paddress" name="paddress" placeholder="Postal Address" ></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-6">
+                    	<div class="form-group">
+                        	<textarea class="form-control" rows="3" id="address" name="address" placeholder="Physical Address"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                    	<div class="form-group">
+                        	<input type="text" class="form-control" id="edu" name="edu" placeholder="Level Of Education" value="" required>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-3">
+                    	<div class="form-group">
+                        	<input type="text" class="form-control" id="visual" name="visual" placeholder="Visual Condition"  required>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-4">
+                    	<div class="form-group">
+                        	<input type="text" class="form-control" id="occ" name="occ" placeholder="Occupation" value="" required>
+                            <p class="employed">(If self employed, state type of business)</p>
+                        </div>
+                    </div>
+                   </div>
+                    <script src='https://www.google.com/recaptcha/api.js'></script>
+					<div class="g-recaptcha" data-sitekey="6Lf4mTQUAAAAAD4RNsEhhWryo_GBETUrP1HIvUbd"></div>
+					<br/>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- <div class="form-group clearfix">
+                            							    <label class="captcha"><img src="/newsite/math-captcha/MathchaSecurityImages.php?difficulty=1&theme=t5" alt="Captcha"></label>
+                                <input type="text" class="form-control result" name="captcha" id="captcha" placeholder="Result" required>
+                            </div> -->
+                            
+                            <div class="form-group">
+							<input type="hidden" name="userval" id="userval" value="7j86toq9">
+                                <input class="btn btn-default" value="Submit" type="submit">
+								 <!-- <a href="http://demo.weblogic.co.bw/local/babps/images/membership-form.pdf" class="btn btn-default frt" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download the Membership Form</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </form>
+               <!-- <a href="http://demo.weblogic.co.bw/local/babps/images/membership-form.pdf" class="btn btn-default frt" download>Download the Membership Form</a> -->
+                
+            </div>
+          </div>
+     </div>
+</main>
+
+<div class="gap"></div>
+
+<footer>
+	<div class="container">
+    	<div class="row">
+       
+        	<div class="col-md-3 col-sm-3">
+            	<div class="footer-block">
+                	<!--<p class="footer-title">LINKS</p>-->
+                    <ul class="listing">
+                    	<li><a href="/newsite/index.php/home/">Home</a></li>
+                        <li><a href="/newsite/index.php/babps-content/cid/2/about-us/">About Us</a></li>
+                        <li><a href="/newsite/index.php/babps-content/cid/6/programmes/">Programmes</a></li>
+                         <li><a href="/newsite/index.php/babps-content/cid/7/services/">Services</a></li>
+                        <li><a href="/newsite/index.php/babps-events/">Events</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-3">
+            	<div class="footer-block">
+                    <ul class="listing">
+                       
+                        <li><a href="/newsite/index.php/babps-news/">News</a></li>
+                        <li><a href="/newsite/index.php/babps-membership/">Become a member</a></li>
+                        <li><a href="/newsite/index.php/babps-faq/">Faq's</a></li>
+                         <li><a href="/newsite/index.php/babps-contact-us/">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+             <div class="col-md-3 col-sm-3">
+            	<div class="footer-block">
+                    <div class="social-block">
+                    	<a href="#" title="Follow on facebook"><i class="fa fa-facebook-square social-icon" aria-hidden="true"></i></a>
+                        <a href="#" title="Follow on twitter"><i class="fa fa-twitter-square social-icon" aria-hidden="true"></i></a>
+                        <a href="#" title="Follow on youtube"><i class="fa fa-youtube-square social-icon" aria-hidden="true"></i></a>
+                        <a href="#" title="Follow on googleplus"><i class="fa fa-google-plus-square social-icon" aria-hidden="true"></i></a>
+                        <a href="#" title="Follow on instagram"><i class="fa fa-instagram social-icon" aria-hidden="true"></i></a>
+					</div>
+                </div>
+            </div>
+            
+            
+            <!--<div class="col-md-3 col-sm-3">
+            	<div class="footer-block">
+					                	<p class="footer-title">ABOUT US</p>
+                    
+	Botswana Association of the Blind and Partially Sighted (BABPS) was established in 1999 as a not-for-profit organization with the purpose of addressing and representing the needs and interests of persons with visual impairment (VI) in Botswana; as well as dedicated to improve their quality of life through promotion of access to resources and opportunities.                 </div>
+            </div>-->
+            
+           <!-- <div class="col-md-4 col-sm-4">
+            	<div class="footer-block">
+                	<p class="footer-title">CONTACT DETAILS</p>
+                    <p class="addres">Physical Address</p>
+                    <p>Plot 1267, Old Lobatse Road, Gaborone,Botswana</p>
+                    <p><strong>Tel:</strong> +333 666 3366</p>
+                    <p><strong>Fax:</strong> +333 666 3366</p>
+                    <p class="email"><strong>Email:</strong> <a href="mailto:ttraditladi@gmail.com">ttraditladi@gmail.com</a></p>
+                    <div class="">
+                    	<a href="#"><i class="fa fa-facebook-square social-icon" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square social-icon" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-youtube-square social-icon" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square social-icon" aria-hidden="true"></i></a>
+					</div>
+                </div>
+            </div>-->
+            
+            <div class="col-md-3 col-sm-3">
+            	<div class="footer-block">
+                	<img class="center-block img-responsive" src="/newsite/images/logo.jpg" alt="" />
+                    <p class="conditions"><a href="/newsite/index.php/babps-content/cid/12/term-and-condition/">Privacy policy</a></p>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    <section class="last-footer">
+    	<div class="container">
+        	<div class="flt"><p>Copyright &copy 2017 BABPS. All Rights Reserved</p></div>
+            <div class="frt"><p class="company-link">
+            <a href="http://www.weblogic.co.bw/" target="_blank">Designed & Developed by Weblogic</a>
+            </p></div>
+        </div>
+    </section>
+    
+</footer>
+
+<div id="back-top"><a href="#top"><span></span></a> </div>
+
+<!-- JavaScript plugins -->    
+<script src="/newsite/js/jquery-1.11.2.min.js"></script>
+<script src="/newsite/js/bootstrap.min.js"></script>
+<script src="/newsite/js/topscroll.js"></script>
+<script type="text/javascript" src="/newsite/js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="/newsite/source/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="/newsite/js/responsiveslides.js"></script>
+<script src="/newsite/js/menu-script.js"></script><!--Navigation Menu-->
+<script src="/newsite/js/bootstrap-datepicker.js"></script>
+<!--<script src="/newsite/js/soyo-jquery-multi-font-size.min.js"></script>-->
+
+<script src="/newsite/js/jquery.cookie.js"></script>
+<script src="/newsite/js/jquery.textresizer.js"></script> 
+
+<script src="/newsite/js/main.js"></script>
+<script src="/newsite/js/wow.min.js"></script>
+
+
+
+<script type="text/javascript">
+$(document).ready(function() { $('#incfont').click(function(){ curSize= parseInt($('.content').css('font-size')) + 2; if(curSize<=20) $('.content').css('font-size', curSize); }); $('#decfont').click(function(){ curSize= parseInt($('.content').css('font-size')) - 2; if(curSize>=12) $('.content').css('font-size', curSize); }); }); 
+</script>
+</body>
+</html>

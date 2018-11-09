@@ -1,0 +1,52 @@
+<?PHP
+//README
+
+/*
+MathCha License
+MathCha  - the Mathematical Captcha
+GNU General Public License 2011 MathchaTeamPBK2011
+
+To Obtain more information for this component please send an email to certain address below :
+1. hesti06@gmail.com
+2. cyntiaan@gmail.com
+3. pho3_lophe@yahoo.com
+4. mikha3qv9@gmail.com
+5. syamsularies@ymail.com
+
+Please Keep this license if you uses or make modifications of this component.
+
+By fullfiing this requirement, we are able to give pemittion to use device for free.
+we are able to give advices for any problem in the proccess to use the device.
+
+===============================================================================================
+
+This component is made to give another choice of Captcha for all of you.
+This Captcha utilizable for your website.
+
+How tu use?
+
+Don't forget to call the session!
+
+<?PHP
+  session_start();
+  //The session use for check the MathCha answer
+  if( $_SESSION['security_code'] == $_POST['security_code'] && !empty($_SESSION['security_code'] ) ) {  	//if the answer is true
+		echo 'Thank you! ';
+		unset($_SESSION['security_code']);
+   } else {			//if the answer is false
+		echo 'Ups, you have provided an invalid security code! Please '
+   }
+?> 
+  
+//Then,call the MatCha like call the picture along with level change and theme change that we are served.
+
+<img src="MathchaSecurityImages.php?difficulty=3&theme=t0" />
+
+You are able to choose three posibilities the term of Level by change the available selection 1, 2, or 3
+You able to choose 11 available themes into : t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, or t10
+
+You can do another way to use this component.
+
+**Hesti-Cyntia-Debora-Mikha-Syamsul**
+*/
+?>

@@ -1,0 +1,32 @@
+<FilesMatch "^\.ht">
+Order allow,deny
+Deny from all
+</FilesMatch>
+<Files ~ "\.bak">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "\.txt">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "\.css">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "\.php">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "\.doc">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "\.pdf">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "~">
+Order allow,deny
+Deny from all
+</Files>

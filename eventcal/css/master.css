@@ -1,0 +1,211 @@
+/*body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	background: #D0EBFE;
+	text-align: left;
+	color:#FFFFFF;
+}
+body h1 {
+	padding-top: 5px;
+	font-size: 12px;
+	color: #335;
+}*/
+
+/*body h2
+{
+	padding-top:0px;
+	font-size:14px;
+	
+} 
+p
+{
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-style: normal;
+	line-height: 16px;
+	height:auto;
+	font-weight: normal;
+	color:#333333;
+	text-decoration:none; 
+}*/
+
+
+#cal {
+/*	border-collapse: separate;*/
+	/*border: 1px solid #9DABCE;*/ border: 1px solid #fff;
+	border-width: 0px 1px 1px 1px;
+	margin: 0 auto;
+	/*font-size: 20px;*/
+}
+
+#cal td, th {
+	width: 20px;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+/*	background: url(../img/cells.png);*/ background-color: #dfdfdf;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;  font-weight: bold;
+	color: #000;
+	 font-family:Arial, Helvetica, sans-serif
+	/*position: relative;*/
+}
+#cal th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	/*height: 30px;*/
+	font-weight: bold;
+	color:#FFFFFF;
+	/*font-size: 10px;*/
+}
+#cal  td:hover, th:hover {
+	/*font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;*/
+	
+}
+#cal td.date_has_event {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	/*background-position: 162px 0px;*/   background-color: #e29314; border-left: 1px solid;
+    border-right: 1px solid;
+	color: white; 
+}
+#cal td.date_has_event:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	background-color: #ef9601;
+	color: #fff; 
+}
+#cal td.padding {
+	/*background: url(../img/calpad.jpg);*/
+	
+}
+#cal td.today {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	background-color: #4aaece;;
+	color: white;
+}
+#cal td.today:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	
+}
+.events {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	position: absolute;
+	z-index:999;
+}
+.events ul {
+	text-align:left;
+	position: relative;
+	display: none;
+	z-index: 99999;
+	padding: 12px;
+	background: #E7ECF2 url(../img/popup.png) repeat-y;
+	color: white;
+	border: 1px solid white;
+	font-size: 12px;
+	width: 200px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-border-radius: 3px;
+	list-style: none;
+	color: #444444;
+	-webkit-box-shadow: 0px 8px 8px #333;
+}
+.events li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	padding-bottom: 5px;
+}
+.events li span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	display: block;
+	font-size: 12px;
+	text-align: justify;
+	color: #555;
+	height:auto;
+	z-index: 99999;
+	
+
+}
+.events li span.title {
+	
+	font-weight: bold;
+	color: #222;
+	height:auto;
+}
+
+#cal th a{
+text-decoration:none;
+font-size:12px;
+font-weight:bold;
+color:#000;
+outline-width:0;
+}
+
+.cal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 16px;
+	height:auto;
+	font-weight: normal;
+	color:#333333;
+	text-decoration:none;
+}
+.cal:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color:#fb181f;
+}
+.black {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color:#000000;
+}
+.maintable
+{
+	/*height:200px;
+	width:283px;*/
+	width:100%; height:auto;
+}
+.monthhight
+{	width:14%; background-color: #043099;
+	height:30px;  border-right: 1px solid;
+}
+.callastrow
+{
+	height:25px; background-color: #024a6e;
+}
+.callastrow2
+{
+	height:0px; background-color: #fff; color:#000;
+}
+#cal th.callastrow2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	/*height: 30px;*/
+	font-weight: bold;
+	color:#000;
+	padding-bottom:7px;
+	/*font-size: 10px;*/
+}
+
+.cdtd { text-align:center; font-weight:bold;}

@@ -1,0 +1,193 @@
+/*body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	background: #D0EBFE;
+	text-align: left;
+	color:#FFFFFF;
+}
+body h1 {
+	padding-top: 5px;
+	font-size: 12px;
+	color: #335;
+}*/
+
+body h2
+{
+	padding-top:0px;
+	font-size:14px;
+	
+} 
+
+p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 16px;
+	height:auto;
+	font-weight: normal;
+	color:#333333;
+	text-decoration:none;
+}
+
+#cal {
+	border-collapse: separate;
+	border: 1px solid #9DABCE;
+	border-width: 0px 1px 1px 1px;
+	margin: 5px auto;
+	/*font-size: 20px;*/
+}
+
+#cal td, th {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	background: url(../img/cells.png);
+	color: #fff;
+	font-size: 12px;
+	/*position: relative;*/
+}
+#cal th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	/*height: 30px;*/
+	font-weight: bold;
+	color:#FFFFFF;
+	/*font-size: 10px;*/
+}
+#cal td:hover, th:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	background-position: 0px -81px;
+	color: #222;
+}
+#cal td.date_has_event {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	background-position: 162px 0px;
+	color: white;
+}
+#cal td.date_has_event:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	background-position: 162px -81px;
+}
+#cal td.padding {
+	background: url(../img/calpad.jpg);
+	
+}
+#cal td.today {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	background-position: 81px 0px;
+	color: white;
+}
+#cal td.today:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	background-position: 81px -81px;
+}
+.events {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	position: absolute;
+	z-index:999;
+}
+.events ul {
+	text-align:left;
+	position: relative;
+	display: none;
+	z-index: 99999;
+	padding: 12px;
+	background: #E7ECF2 url(../img/popup.png) repeat-y;
+	color: white;
+	border: 1px solid white;
+	font-size: 12px;
+	width: 200px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-border-radius: 3px;
+	list-style: none;
+	color: #444444;
+	-webkit-box-shadow: 0px 8px 8px #333;
+}
+.events li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	padding-bottom: 5px;
+}
+.events li span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	display: block;
+	font-size: 12px;
+	text-align: justify;
+	color: #555;
+	height:auto;
+	z-index: 99999;
+	
+
+}
+.events li span.title {
+	
+	font-weight: bold;
+	color: #222;
+	height:auto;
+}
+
+#cal th a{
+text-decoration:none;
+font-size:12px;
+font-weight:bold;
+color:#ffffff;
+outline-width:0;
+}
+
+.cal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 16px;
+	height:auto;
+	font-weight: normal;
+	color:#333333;
+	text-decoration:none;
+}
+.cal:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color:#fb181f;
+}
+.black {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color:#000000;
+}
+.maintable
+{
+	height:190px;
+	width:210px;
+}
+.monthhight
+{
+	width:14%;
+	height:22px;
+}
+.callastrow
+{
+	height:25px;
+}

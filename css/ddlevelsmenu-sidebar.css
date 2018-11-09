@@ -1,0 +1,58 @@
+/* ######### Marker List Vertical Menu ######### */
+
+.navcontent {
+	width:271px;
+	clear: left;
+	position: relative; 
+}
+
+.navcontent  ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+border: 0px solid #dad8d8;
+}
+
+/*.navcontent ul li{ *margin-bottom:-2px;}*/
+
+.navcontent ul li a{
+color: #fff;
+background:url(../images/navhover.jpg) no-repeat top left;
+display:block;
+font-size:12px;
+height:18px;
+padding:5px 0 4px 40px;
+text-decoration:none;
+width:auto;
+}
+.navcontent ul li.last a {padding:5px 0 5px 40px;}
+
+.navcontent ul li a:hover, .navcontent ul li a.selected{
+/*color: #800000;
+background:url(../images/navhover.jpg) no-repeat top left;*/
+background:url("../images/nav.jpg") no-repeat scroll left top transparent;
+color:#fff;
+
+}
+
+/* ######### Customized Drop Down ULs CSS (inherits from ddlevelsmenu-base.css) ######### */
+
+.blackwhite li a{
+background: #800000;
+color: #fff;
+}
+
+.blackwhite li a:hover{
+background: #333333;
+color: #fff;
+}
+
+.topblackwhite li a{
+background:#0e778d;
+color: #FFFFFF;
+}
+
+.topblackwhite li a:hover{
+background: #09677b;
+color: #FFFFFF;
+}
